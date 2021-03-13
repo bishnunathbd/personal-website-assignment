@@ -46,7 +46,7 @@ p{
 
 section{
   height: 570px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -93,4 +93,41 @@ section{
   background-image: url("images/latest-work-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* bottom area  */
+.bottom-area{
+  text-align: center;
+  height: 470px;
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bottom-area h2{
+  margin-bottom: 70px;
+}
+.bottom-area h4,h5{
+  margin: 0;
+}
+h5{
+  color: gray;
+}
+blockquote{
+  padding: 30px 0;
+}
+.contact{
+  /* border: 1px solid green; */
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #ff80bf, #ff3399);
+  padding: 20px 0;
+}
+.contact h3, #message{
+  color: white;
+}
+footer p{
+  color: dimgray;
+  font-size: 12px;
+  text-align: center;
 }
