@@ -55,3 +55,18 @@ section{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+/* Biography area  */
+.biography-area{
+  height: 670px;
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#biography{
+  position: relative;
+  top: 120px;
+}
+#biography p{
+  padding-bottom: 30px;
+}
