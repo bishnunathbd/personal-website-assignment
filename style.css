@@ -70,3 +70,27 @@ section{
 #biography p{
   padding-bottom: 30px;
 }
+
+/* work area  */
+.single-work{
+  width: 25%;
+  /* border: 1px solid blue; */
+  float: left;
+  margin-left: 5%;
+  padding-left: 1%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+}
+.single-work img{
+  width: 100%;
+}
+.work-area h2{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.work-area{
+  height: 400px;
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
