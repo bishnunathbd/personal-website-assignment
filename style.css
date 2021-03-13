@@ -2,3 +2,56 @@ body{
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
+h1{
+  font-size: 50px;
+  color: #ff3399;
+}
+h2{
+  font-size: 40px;
+  font-weight: 400;
+}
+p{
+  color: dimgray;
+}
+.link-btn{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ff80bf, #ff3399);
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.half-width{
+  /* border: 1px solid green; */
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img{
+  width: 100%;
+}
+#jack-smith{
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+#jack-smith h1, h2{
+  margin: 0;
+}
+#jack-smith p{
+  padding: 30px 0;
+}
+
+section{
+  height: 570px;
+  border: 1px solid red;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.top-area{
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
